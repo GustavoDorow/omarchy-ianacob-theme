@@ -15,7 +15,7 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-lasthorizon-theme
 ```
 
 ## Waybar-Theme
-For my Waybar-Theme (V3 config & shadow_style_css) simply check my Link https://github.com/HANCORE-linux/Waybar-Theme-red-accents-.git
+For my Waybar-Theme simply check my [Link](https://github.com/HANCORE-linux/waybar-themes)
 
 ### License
 MIT

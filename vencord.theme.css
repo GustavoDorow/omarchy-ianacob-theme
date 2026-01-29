@@ -247,7 +247,7 @@ div[class*="numberBadge"],
 span[class*="numberBadge"],
 div[class*="textBadge"],
 span[class*="textBadge"] {
-    background-color: var(--base0B) !important;
+    background-color: var(--base04) !important;
     color: var(--base00) !important;
 }
 
@@ -442,7 +442,7 @@ div.folderIconWrapper__48112 {
 
 /*--- New Messages Summary Bar Recolor -J--*/
 .newMessagesBar__0f481 {
-    background-color: var(--base03);
+    background-color: var(--base08);
 
     button.barButtonAlt__0f481 {
         background-color: var(--base02) !important;

@@ -16,11 +16,11 @@ selection_background = "#FAFCFB"
 
 # Normal colors (ANSI 0-7)
 color0 = "#0c0b0c"
-color1 = "#934e39"
+color1 = "#c38b7b"
 color2 = "#b59790"
 color3 = "#704e44"
 color4 = "#a2b7c1"
-color5 = "#71818E"
+color5 = "#c4d8e2"
 color6 = "#87a9b0"
 color7 = "#e2dddc"
 

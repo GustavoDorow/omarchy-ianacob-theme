@@ -8,7 +8,7 @@ theme[main_fg]="#e2dddc"
 theme[title]="#b59790"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#704e44"
+theme[hi_fg]="#87a9b0"
 
 # Background color of selected item in processes box
 theme[selected_bg]="#e2dddc"
@@ -27,7 +27,7 @@ theme[cpu_box]="#e2dddc"
 theme[mem_box]="#e2dddc"
 theme[net_box]="#e2dddc"
 theme[proc_box]="#e2dddc"
-theme[div_line]="#b59790"
+theme[div_line]="#a5a0b6"
 
 # Gradient for all meters and graphs
 theme[temp_start]="#e2dddc"
@@ -37,34 +37,34 @@ theme[temp_end]="#934e39"
 
 theme[cpu_start]="#e2dddc"
 theme[cpu_mid]="#b59790"
-theme[cpu_end]="#704e44"
+theme[cpu_end]="#a5a0b6"
 
 
 theme[free_start]="#e2dddc"
 theme[free_mid]="#b59790"
-theme[free_end]="#704e44"
+theme[free_end]="#a5a0b6"
 
 
 theme[cached_start]="#e2dddc"
 theme[cached_mid]="#b59790"
-theme[cached_end]="#704e44"
+theme[cached_end]="#a5a0b6"
 
 
 theme[available_start]="#e2dddc"
 theme[available_mid]="#b59790"
-theme[available_end]="#704e44"
+theme[available_end]="#a5a0b6"
 
 
 theme[used_start]="#e2dddc"
 theme[used_mid]="#b59790"
-theme[used_end]="#704e44"
+theme[used_end]="#a5a0b6"
 
 
 theme[download_start]="#e2dddc"
 theme[download_mid]="#b59790"
-theme[download_end]="#704e44"
+theme[download_end]="#a5a0b6"
 
 
 theme[upload_start]="#e2dddc"
 theme[upload_mid]="#b59790"
-theme[upload_end]="#704e44"
+theme[upload_end]="#a5a0b6"

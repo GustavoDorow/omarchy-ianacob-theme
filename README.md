@@ -17,5 +17,8 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-lasthorizon-theme
 ## Waybar-Theme
 For my Waybar-Theme simply check my [Link](https://github.com/HANCORE-linux/waybar-themes)
 
+## Wallpaper
+- BG4 by DeviantArt Designer [DVAULTZ](https://www.deviantart.com/dvaultz/art/Inner-Levels-1289491031)
+
 ### License
 MIT

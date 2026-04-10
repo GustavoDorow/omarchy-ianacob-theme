@@ -56,6 +56,12 @@ window .input {
     caret-color: #33241f;
 }
 
+window .search-container .placeholder,
+window .search-container entry placeholder {
+  color: @base;
+  opacity: 1;
+}
+
 window .input {
     background: transparent;
     color: @text;

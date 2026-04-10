@@ -50,8 +50,9 @@ window .search-container {
     
 }
 
-window .search-container text { 
-    color: #33241f;
+window .search-container text,
+window .input { 
+    color: @base;
     caret-color: #33241f;
 }
 

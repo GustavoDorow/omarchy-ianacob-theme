@@ -7,25 +7,23 @@ return {
     opts = {
       transparent = false,
       colors = {
-        -- Backgrounds
-        bg = "#0c0b0c",
-        bg_dark = "#0c0b0c",
-        bg_highlight = "#33241f",
+  bg           = "#0c0b0c",
+  bg_dark      = "#0c0b0c",
+  bg_highlight = "#716661",     -- still only change to bg_highlight
 
-        -- Foregrounds
-        fg = "#eaeceb",       -- softened foreground for long sessions
-        fg_dark = "#e2dddc",  -- secondary text / statusline
-        comment = "#72747b",  -- readable but clearly secondary
+  -- Foregrounds
+  fg           = "#f1f1ef",
+  fg_dark      = "#e0dbd9",
+  comment      = "#94918c",
 
-        -- Accents / syntax
-        red = "#934e39",      -- errors, diagnostics
-        orange = "#704e44",   -- numbers, constants
-        yellow = "#b59790",   -- types, booleans
-        green = "#a2b7c1",    -- strings, success
-        cyan = "#4b6566",     -- parameters, hints
-        blue = "#a2b7c1",     -- functions, keywords
-        purple = "#b59790",   -- special keywords
-        magenta = "#a5a0b6",  -- function declarations
+  red          = "#e36a58",
+  orange       = "#c38d72",
+  yellow       = "#c8a88a",
+  green        = "#a4dded",
+  cyan         = "#725379",
+  blue         = "#4691a1",
+  purple       = "#c9a3c9",
+  magenta      = "#b9a0d1",
       },
     },
     config = function(_, opts)

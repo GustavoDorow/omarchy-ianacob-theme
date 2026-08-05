@@ -12,7 +12,7 @@ size-horizontal = 26
 size-vertical = 28
 
 [hyprland]
-active-border = "rgba(05080aee) rgba(05080aee) rgba(05080aee) rgba(fff6ffee) rgba(fff6ffee) rgba(fff6ffee) rgba(fff6ffee) rgba(fff6ffee) 90deg"
+active-border = "rgba(05080aee) rgba(fff6ffee) 90deg"
 active-border-foreground = "#FFF6FF"
 
 [controls]

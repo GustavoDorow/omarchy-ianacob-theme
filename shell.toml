@@ -1,0 +1,148 @@
+# Omarchy Quattro surfaces for Last Horizon.
+# The near-black foundation, warm dusk accents, and stepped horizon border
+# carry the legacy Walker, Mako, SwayOSD, Hyprlock, and Waybar identity forward.
+
+[bar]
+background = "#0C0B0C"
+background-alpha = 1.0
+text = "#FAFCFB"
+active = "#B59790"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+active-border = "rgba(05080aee) rgba(05080aee) rgba(05080aee) rgba(fff6ffee) rgba(fff6ffee) rgba(fff6ffee) rgba(fff6ffee) rgba(fff6ffee) 90deg"
+active-border-foreground = "#FFF6FF"
+
+[controls]
+normal-color = "#E2DDDC"
+normal-fill-alpha = 0.04
+normal-border-width = 1
+normal-border-alpha = 0.28
+
+hover-cursor-color = "#B59790"
+hover-cursor-fill-alpha = 0.10
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.46
+
+focus-color = "#C38B7B"
+focus-fill-alpha = 0.12
+focus-border-width = 1
+focus-border-alpha = 0.80
+
+selected-color = "#A5A0B6"
+selected-fill-alpha = 0.18
+selected-border-width = 1
+selected-border-alpha = 0.56
+
+pressed-color = "#C38B7B"
+pressed-fill-alpha = 0.24
+selection-color = "#B59790"
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+xs = 2
+md = 4
+control-padding-y = 5
+panel-padding = 10
+
+[font]
+base-size = 12
+heading = 16
+icon-large = 18
+
+[popups]
+background = "#0C0B0C"
+background-alpha = 0.97
+text = "#E2DDDC"
+border = "#CFD3CD #B59790 90deg"
+border-alpha = 1.0
+border-width = 1
+
+[tooltip]
+background = "#0C0B0C"
+background-alpha = 0.97
+text = "#E2DDDC"
+border = "#584E51"
+border-alpha = 1.0
+border-width = 1
+
+[notifications]
+background = "#0C0B0C"
+background-alpha = 0.97
+text = "#E2DDDC"
+border = "#CFD3CD #B59790 90deg"
+border-alpha = 1.0
+border-width = 1
+countdown = "#B59790"
+
+[launcher]
+background = "#0C0B0C"
+background-alpha = 0.98
+text = "#E2DDDC"
+border = "#CFD3CD #B59790 90deg"
+border-alpha = 1.0
+border-width = 1
+scrim = "#0C0B0C"
+scrim-alpha = 0.0
+selected-background = "#6B5E73"
+selected-background-alpha = 0.20
+selected-text = "#E2DDDC"
+selected-border = "#584E51"
+selected-border-alpha = 0.0
+selected-border-width = 0
+
+[menu]
+background = "#0C0B0C"
+background-alpha = 0.98
+text = "#E2DDDC"
+border = "#CFD3CD #B59790 90deg"
+border-alpha = 1.0
+border-width = 1
+scrim = "#0C0B0C"
+scrim-alpha = 0.0
+selected-background = "#6B5E73"
+selected-background-alpha = 0.20
+selected-text = "#E2DDDC"
+selected-border = "#584E51"
+selected-border-alpha = 0.0
+selected-border-width = 0
+
+[polkit]
+background = "#0C0B0C"
+background-alpha = 0.97
+text = "#E2DDDC"
+text-error = "#C38B7B"
+border = "hyprland.active-border"
+border-error = "#C38B7B"
+border-alpha = 1.0
+border-width = 1
+scrim = "#0C0B0C"
+scrim-alpha = 0.5
+accent = "#B59790"
+
+[lock]
+background = "#0C0B0C"
+background-alpha = 0.78
+text = "#E2DDDC"
+placeholder = "#FFFFFFB3"
+text-error = "#C38B7B"
+border = "#CFD3CD #B59790 90deg"
+border-active = "#CFD3CD #B59790 90deg"
+border-error = "#C38B7B"
+border-alpha = 1.0
+border-width = 1
+selection = "#B59790"
+selection-alpha = 0.45
+
+[image-picker]
+scrim = "#0C0B0C"
+scrim-alpha = 0.5
+text = "#E2DDDC"
+selected-border = "#B59790"
+selected-border-alpha = 1.0
+unselected-border = "#E2DDDC"
+unselected-border-alpha = 0.30

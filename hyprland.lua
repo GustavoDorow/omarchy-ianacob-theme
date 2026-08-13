@@ -4,10 +4,7 @@
 hl.config({
   general = {
     col = {
-      active_border = {
-        colors = { "rgba(05080aee)", "rgba(05080aee)", "rgba(05080aee)", "rgba(fff6ffee)", "rgba(fff6ffee)", "rgba(fff6ffee)", "rgba(fff6ffee)", "rgba(fff6ffee)" },
-        angle = 90,
-      },
+      active_border = "rgb(ffffff)",
       inactive_border = "rgb(05080a)",
     },
     gaps_in = 4,

@@ -32,6 +32,12 @@ hl.config({
   },
 })
 
+-- A lone tiled window does not need a focus indicator.
+hl.window_rule({
+  match = { float = false, workspace = "w[tv1]" },
+  border_size = 0,
+})
+
 hl.curve("expressiveFastSpatial", { type = "bezier", points = { { 0.42, 1.67 }, { 0.21, 0.90 } } })
 hl.curve("expressiveSlowSpatial", { type = "bezier", points = { { 0.39, 1.29 }, { 0.35, 0.98 } } })
 hl.curve("expressiveDefaultSpatial", { type = "bezier", points = { { 0.38, 1.21 }, { 0.22, 1.00 } } })

@@ -32,6 +32,9 @@ hl.config({
   },
 })
 
+-- This theme keeps application windows fully opaque, including when unfocused.
+o.window(".*", { opacity = "1 override 1 override 1 override" })
+
 -- A lone tiled window does not need a focus indicator.
 hl.window_rule({
   match = { float = false, workspace = "w[tv1]" },

@@ -97,11 +97,11 @@ selected-border-width = 0
 
 [menu]
 background = "#0C0B0C"
-background-alpha = 0.98
+background-alpha = 0.30
 text = "#E2DDDC"
 border = "#CFD3CD #B59790 90deg"
-border-alpha = 1.0
-border-width = 1
+border-alpha = 0.0
+border-width = 0
 scrim = "#0C0B0C"
 scrim-alpha = 0.0
 selected-background = "#6B5E73"

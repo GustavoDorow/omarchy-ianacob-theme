@@ -48,11 +48,11 @@ hl.config({
   },
 })
 
--- Blur only the Quickshell Omarchy Menu surface. The low alpha cutoff keeps
--- the transparent full-screen scrim clear while blurring the menu card.
+-- Blur the Quickshell Omarchy Menu and clipboard surfaces. The low alpha
+-- cutoff keeps their transparent full-screen scrims clear while blurring the cards.
 hl.layer_rule({
-  name = "lasthorizon-omarchy-menu",
-  match = { namespace = "^omarchy-menu$" },
+  name = "lasthorizon-omarchy-menu-surfaces",
+  match = { namespace = "^(omarchy-menu|omarchy-clipboard)$" },
   blur = true,
   ignore_alpha = 0.10,
   xray = false,

@@ -1,27 +1,33 @@
-# Last Horizon
-Bathed in hues of crimson and gold, she stands between day and night — a fleeting dream painted by the dying sun.
-The world holds its breath as the sky burns with her silence.
-In that fragile moment, beauty and sorrow melt into one eternal glow.
+# Ianacob
 
-# Screenshots
-<img width="2560" height="1440" alt="screenshot-2026-01-28_22-05-52" src="https://github.com/user-attachments/assets/2747273a-a52f-4813-891d-533ac003cba5" />
+An Omarchy theme shaped by deep blacks, luminous whites, and muted rose and blue accents. Ianacob pairs a restrained interface with surreal, dreamlike skies.
 
-# Installation Theme
+Ianacob began as a fork of [Last Horizon](https://github.com/HANCORE-linux/omarchy-lasthorizon-theme) by HANCORE Linux. It has since evolved into a distinct theme with its own palette, configuration, and visual identity.
 
-To install this theme, simply use the omarchy-theme-install command:
+## Screenshot
+
+![Ianacob theme](./screenshot-2026-08-17_19-51-14.png)
+
+## Installation
+
+Install Ianacob directly from GitHub:
 
 ```bash
-omarchy-theme-install https://github.com/HANCORE-linux/omarchy-lasthorizon-theme.git
+omarchy theme install https://github.com/GustavoDorow/omarchy-ianacob-theme.git
 ```
 
-## Waybar-Theme
-[Link](https://github.com/HANCORE-linux/waybar-themes)
+## Related projects
 
-#### Theme-Hook-Manager
-[Link](https://github.com/OldJobobo/theme-hook-plugin-manager)
+- [Waybar Themes](https://github.com/HANCORE-linux/waybar-themes)
+- [Theme Hook Plugin Manager](https://github.com/OldJobobo/theme-hook-plugin-manager)
 
-## Wallpaper
-- BG4 by DeviantArt Designer [DVAULTZ](https://www.deviantart.com/dvaultz/art/Inner-Levels-1289491031)
+## Wallpaper credits
 
-### License
-MIT
+The following wallpapers are artwork by [Mac Baconai](https://x.com/macbaconai):
+
+- `backgrounds/G8ny5RwXEAEddQi.jpeg`
+- `backgrounds/GeYZxYzXgAAZcvT.jpeg`
+
+## License
+
+The theme configuration is licensed under the [MIT License](./LICENSE). Wallpaper artwork remains the property of its respective creator.

@@ -61,10 +61,26 @@ hl.layer_rule({
 -- This theme keeps application windows fully opaque, including when unfocused.
 o.window(".*", { opacity = "1 override 1 override 1 override" })
 
+-- A lone tiled window uses half the theme's normal gaps and keeps its rounding.
+hl.workspace_rule({
+  workspace = "w[tv1]",
+  gaps_in = 2,
+  gaps_out = 4,
+})
+
 -- A lone tiled window does not need a focus indicator.
 hl.window_rule({
   match = { float = false, workspace = "w[tv1]" },
   border_size = 0,
+})
+
+-- Fullscreen windows should meet every monitor edge without a visible frame.
+hl.window_rule({
+  name = "lasthorizon-fullscreen-edge-to-edge",
+  match = { fullscreen = true },
+  border_size = 0,
+  rounding = 0,
+  no_shadow = true,
 })
 
 hl.curve("expressiveFastSpatial", { type = "bezier", points = { { 0.42, 1.67 }, { 0.21, 0.90 } } })

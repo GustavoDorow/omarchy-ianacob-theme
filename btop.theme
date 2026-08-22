@@ -5,7 +5,7 @@ theme[main_bg]="#0c0b0c"
 theme[main_fg]="#e2dddc"
 
 # Title color for boxes
-theme[title]="#90a3e5"
+theme[title]="#466c75"
 
 # Highlight color for keyboard shortcuts
 theme[hi_fg]="#c4d8e2"
@@ -43,23 +43,23 @@ theme[temp_mid]="#6B5E73"
 theme[temp_end]="#c38b7b"
 
 # CPU graph colors (Blue -> Cyan -> Magenta)
-theme[cpu_start]="#90a3e5"
+theme[cpu_start]="#466c75"
 theme[cpu_mid]="#a5a0b6"
 theme[cpu_end]="#c4d8e2"
 
 # Mem/Disk free meter (Reversed "Available" colors: Cyan -> Blue -> Purple)
 theme[free_start]="#c4d8e2"
-theme[free_mid]="#90a3e5"
+theme[free_mid]="#466c75"
 theme[free_end]="#6B5E73"
 
 # Mem/Disk cached meter
-theme[cached_start]="#90a3e5"
+theme[cached_start]="#466c75"
 theme[cached_mid]="#c4d8e2"
 theme[cached_end]="#e2dddc"
 
 # Mem/Disk available meter (Purple -> Blue -> Cyan)
 theme[available_start]="#6B5E73"
-theme[available_mid]="#90a3e5"
+theme[available_mid]="#466c75"
 theme[available_end]="#a5a0b6"
 
 # Mem/Disk used meter
@@ -73,7 +73,7 @@ theme[download_mid]="#a5a0b6"
 theme[download_end]="#cfd3cd"
 
 # Upload graph colors
-theme[upload_start]="#90a3e5"
+theme[upload_start]="#466c75"
 theme[upload_mid]="#c4d8e2"
 theme[upload_end]="#e2dddc"
 
@@ -88,6 +88,6 @@ theme[gradient_color_1]="#584e51"
 theme[gradient_color_2]="#6B5E73"
 theme[gradient_color_3]="#c38b7b"
 theme[gradient_color_4]="#87a9b0"
-theme[gradient_color_5]="#90a3e5"
+theme[gradient_color_5]="#466c75"
 theme[gradient_color_6]="#a5a0b6"
 theme[gradient_color_7]="#FAFCFB"

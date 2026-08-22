@@ -6,7 +6,7 @@
 background = "#0C0B0C"
 background-alpha = 1.0
 text = "#FAFCFB"
-active = "#90A3E5"
+active = "#466c75"
 scale-with-font = true
 size-horizontal = 26
 size-vertical = 28
@@ -21,7 +21,7 @@ normal-fill-alpha = 0.04
 normal-border-width = 1
 normal-border-alpha = 0.28
 
-hover-cursor-color = "#90A3E5"
+hover-cursor-color = "#466c75"
 hover-cursor-fill-alpha = 0.10
 hover-cursor-border-width = 1
 hover-cursor-border-alpha = 0.46
@@ -38,7 +38,7 @@ selected-border-alpha = 0.56
 
 pressed-color = "#C38B7B"
 pressed-fill-alpha = 0.24
-selection-color = "#90A3E5"
+selection-color = "#466c75"
 selection-fill-alpha = 0.35
 
 [spacing]
@@ -58,7 +58,7 @@ icon-large = 18
 background = "#0C0B0C"
 background-alpha = 0.99
 text = "#E2DDDC"
-border = "#CFD3CD #90A3E5 90deg"
+border = "#466c75"
 border-alpha = 1.0
 border-width = 1
 
@@ -74,16 +74,16 @@ border-width = 1
 background = "#0C0B0C"
 background-alpha = 0.99
 text = "#E2DDDC"
-border = "#CFD3CD #90A3E5 90deg"
+border = "#466c75"
 border-alpha = 1.0
 border-width = 1
-countdown = "#90A3E5"
+countdown = "#466c75"
 
 [launcher]
 background = "#0C0B0C"
 background-alpha = 0.99
 text = "#E2DDDC"
-border = "#CFD3CD #90A3E5 90deg"
+border = "#466c75"
 border-alpha = 1.0
 border-width = 1
 scrim = "#0C0B0C"
@@ -99,7 +99,7 @@ selected-border-width = 0
 background = "#0C0B0C"
 background-alpha = 0.80
 text = "#E2DDDC"
-border = "#CFD3CD #90A3E5 90deg"
+border = "#466c75"
 border-alpha = 0.0
 border-width = 0
 scrim = "#0C0B0C"
@@ -122,7 +122,7 @@ border-alpha = 1.0
 border-width = 1
 scrim = "#0C0B0C"
 scrim-alpha = 0.5
-accent = "#90A3E5"
+accent = "#466c75"
 
 [lock]
 background = "#0C0B0C"
@@ -130,19 +130,19 @@ background-alpha = 0.85
 text = "#E2DDDC"
 placeholder = "#FFFFFFB3"
 text-error = "#C38B7B"
-border = "#CFD3CD #90A3E5 90deg"
-border-active = "#CFD3CD #90A3E5 90deg"
+border = "#466c75"
+border-active = "#466c75"
 border-error = "#C38B7B"
 border-alpha = 1.0
 border-width = 1
-selection = "#90A3E5"
+selection = "#466c75"
 selection-alpha = 0.45
 
 [image-picker]
 scrim = "#0C0B0C"
 scrim-alpha = 0.5
 text = "#E2DDDC"
-selected-border = "#90A3E5"
+selected-border = "#466c75"
 selected-border-alpha = 1.0
 unselected-border = "#E2DDDC"
 unselected-border-alpha = 0.30

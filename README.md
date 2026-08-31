@@ -10,7 +10,26 @@ Ianacob began as a fork of [Last Horizon](https://github.com/HANCORE-linux/omarc
 
 ## Installation
 
-Install Ianacob directly from GitHub:
+Ianacob includes custom Hyprland behavior in `hyprland.lua`, including its
+rounding, single-window gaps and border rule, opacity, blur, and animations.
+Omarchy deliberately ignores Lua files when a theme is installed directly from
+a Git repository, so `omarchy theme install` installs the palette but not those
+parts of the theme.
+
+For the complete theme, clone it to a working directory and link that directory
+into Omarchy after reviewing the Lua file:
+
+```bash
+git clone https://github.com/GustavoDorow/omarchy-ianacob-theme.git ~/Src/omarchy-tools/omarchy-ianacob-theme
+ln -s ~/Src/omarchy-tools/omarchy-ianacob-theme ~/.config/omarchy/themes/ianacob
+omarchy theme set ianacob
+```
+
+If `~/.config/omarchy/themes/ianacob` already exists from a previous
+`omarchy theme install`, move or remove that directory before creating the
+link.
+
+For a palette-only installation, use:
 
 ```bash
 omarchy theme install https://github.com/GustavoDorow/omarchy-ianacob-theme.git
